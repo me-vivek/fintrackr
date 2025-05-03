@@ -47,17 +47,17 @@ function App() {
     <Router>
        <div>
          <nav className="flex justify-between items-center p-4 md:px-20 gap-4 bg-blue-100">
-          <Link to="/" className="text-2xl font-bold text-center">FinTrackr</Link>
+          <Link to="fintrackr/" className="text-2xl font-bold text-center">FinTrackr</Link>
           <span className="flex justify-center items-center gap-4">
-            <Link to="/" className="text-blue-500">Home</Link>
-            <Link to="/transactions" className="text-blue-500">Transactions</Link>
+            <Link to="fintrackr/" className="text-blue-500">Home</Link>
+            <Link to="fintrackr/transactions" className="text-blue-500">Transactions</Link>
           </span>
          </nav>
        </div>
        <div className="container mx-auto p-4 md:px-20">
          <Routes>
-           <Route exact path="/" element={<Home transactions={transactions} />} />
-           <Route path="/transactions" element={
+           <Route exact path="fintrackr/" element={<Home transactions={transactions} />} />
+           <Route path="fintrackr/transactions" element={
              <Transactions
                transactions={transactions}
                onDelete={deleteTransaction}
