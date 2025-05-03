@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fintrackr/static/css/main.82d3553f.css",
-    "main.js": "/fintrackr/static/js/main.98db4d3a.js",
+    "main.js": "/fintrackr/static/js/main.bd3505bc.js",
     "static/js/453.0dcb2272.chunk.js": "/fintrackr/static/js/453.0dcb2272.chunk.js",
     "index.html": "/fintrackr/index.html",
     "main.82d3553f.css.map": "/fintrackr/static/css/main.82d3553f.css.map",
-    "main.98db4d3a.js.map": "/fintrackr/static/js/main.98db4d3a.js.map",
+    "main.bd3505bc.js.map": "/fintrackr/static/js/main.bd3505bc.js.map",
     "453.0dcb2272.chunk.js.map": "/fintrackr/static/js/453.0dcb2272.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82d3553f.css",
-    "static/js/main.98db4d3a.js"
+    "static/js/main.bd3505bc.js"
   ]
 }
